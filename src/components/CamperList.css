@@ -1,0 +1,10 @@
+.all-campers {
+  width: 75%;
+  margin: 0 auto;
+  border: 1px solid #004600;
+}
+
+.name-title, .number-title, .recent-title, .total-title{
+  text-align: center;
+  font-weight: bold;
+}

@@ -1,0 +1,52 @@
+.camper{
+  display: block;
+}
+
+.row{
+  display: block;
+  text-align: left;
+  overflow: auto;
+  box-sizing: border-box;
+}
+
+.row:nth-child(odd) {
+  /*background-color: #55AC55;*/
+  background-color: #9FA99F;
+}
+.row:nth-child(even) {
+  background-color: white;
+}
+
+.cell{
+  display: inline-block;
+  height: 50px;
+  border: 1px solid #004600;
+  text-align: center;
+  line-height: 50px;
+  box-sizing: border-box;
+}
+
+.number{
+  width: 10%;
+}
+.name{
+  width: 40%;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.last30{
+  width: 25%;
+}
+
+.total{
+  width: 25%;
+}
+
+.icon{
+  width:35px;
+  border-radius: 4px;
+  vertical-align: middle;
+  border: 2px solid #004600;
+  margin-top: -3px;
+}
